@@ -38,22 +38,22 @@
 /*
 
     1° Primeiro começamos criando uma classe chamada poligono.
-    2° Depois criamos a nossa função construtora (constructor) passando ja estipulando os parametros recebidos
-    3° Em seguida utilizamos o "this" par"a nos referir ao objeto que sera criado, neste caso a largura e altura.
+    2° Depois criamos a nossa função construtora (constructor) passando os parametros que iremos receber
+    3° Em seguida utilizamos o "this" para nos referir ao objeto que sera criado, neste caso a largura e altura.
     4° Então criamos uma função chamada "get area" que vai simplesmente retornar o resultado da função calcular area.
     5° Agora nós criamos a função calcular area e dizemos que ela vai retornar a altura versos a largura.
            5.1 Obs: Note que colocamos uma HashTag na nossa função calcular area, esta hash  significa que este metodo criado
                   Não pode ser usado fora da classe, ou seja, ele só irá existir dentro da nossa classe.
-    6º por fim criamos a nossa variael que vai criar um novo objeto e enviar o seus valores para nossa classe Poligono.
+    6º por fim definimos a variael que vai criar um novo objeto e enviar o seus valores para nossa classe Poligono.
     
 
 
 
  */
 
-    class Poligono{
+    class Poligono{ // classe
         
-        constructor(altura, largura){
+        constructor(altura, largura){ // função construtora
             this.altura = altura
             this.largura = largura
         }

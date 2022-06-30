@@ -75,7 +75,7 @@ Esse novo paradigma se baseia principalmente em dois conceitos chave, classes e 
 >
 > 5° Para separar a complexidade de código, abstrair codigo e expor maneiras mais simples.
 >
-> 6° Para classificar as rotinas e trecvhos de código.
+> 6° Para classificar as rotinas e trechos de código.
 
 <BR>
 <BR>
@@ -86,7 +86,9 @@ Esse novo paradigma se baseia principalmente em dois conceitos chave, classes e 
 
 Objeto é uma instância ou modelo derivado de uma classe. Portanto objeto é a representação de qualquer coisa, real ou abstrata, que irá ser manipulada ou armazenada pelo sistema.
 
-O objeto sempre será uma instância ou um elemento de uma classe. Exemplos:
+O objeto sempre será uma instância ou um elemento de uma classe. 
+
+Exemplos:
 
 pessoa -> João
 
@@ -143,9 +145,9 @@ Exemplos de classe:
     - automóvel
     - publicação
 
-Desta forma, a primeira coisa que se deve fazer em uma análise orientado a objetos e identificar as entidades que se pretende considerar no sistema e imediatamente transformá-las em classes.
+Desta forma, a primeira coisa que se deve fazer em uma análise orientado a objetos e identificar as entidades que se pretende considerar no sistema, e imediatamente transformá-las em classes.
 
-Podemos pensar nas classes como sendo um molde para a criação de objetos. Os objetos dão criados a partir de uma classe e muitos podem ser feitos da mesma classe.
+Podemos pensar nas classes como sendo um molde para a criação de objetos. Os objetos são criados a partir de uma classe e muitos podem ser feitos da mesma classe.
 
 ### **Exemplo:**
 
@@ -199,7 +201,7 @@ Os objetos no (JavaScript) são protótipos.
 
 ## Encapsulamento:
 
-Na programação orientada a objeto o encapsulamento se refere ao agrupamento de dados e metedos que operam esses dados, esse agrupamento é feito de forma a restringir o acesso direto a alguns componetes do objeto.
+Na programação orientada a objeto o encapsulamento se refere ao agrupamento de dados e metodos que operam esses dados, esse agrupamento é feito de forma a restringir o acesso direto a alguns componetes do objeto.
 Basicamente nós ocultamos os valores e as funcionalidades de um objeto de dados estruturados, fazendo com que essas funcionalidades e valores só possam ser acessadas dentro da classe, isso possibilita que modificações no sistema possam ser feitas de maneira mais segura, sem que uma funcionalidade esteja espalhada por diversas partes do sistema.
 
 Para uma melhor demosntração consulte o arquivo **"01-Encapsulamento.js"**
@@ -218,7 +220,7 @@ Para uma melhor demosntração consulte o arquivo **"02-Herança.js"**
 ## Polimorfismo:
 Polimorfismo significa "muitas formas", basicamente é a maneira com que podemos rescrever/alterar um atributo ou metodo de um objeto.
 
-Quando herdamos funcionalidades de outro objeto, talvez haja a necessidade de rescrever essas mesmas funcionalidades para que elas se encachem melhor no novo contexto em que as estamos utilizando.
+Quando herdamos funcionalidades de outro objetos, talvez haja a necessidade de rescrever essas mesmas funcionalidades para que elas se encaixem melhor no novo contexto em que as estamos utilizando.
 A grande sacada é que essa mesma funcionalidade não será alterada de forma global, ela na verdade será alterada de forma local, ou seja, esse mesmo condigo terá diferentes corpos/funções dependendo do contexto/escopo em que ele estiver sendo executado.
 
 Para uma melhor demosntração consulte o arquivo **"03-Polimorfismo.js"**

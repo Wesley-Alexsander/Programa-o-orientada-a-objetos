@@ -63,5 +63,5 @@ class Lutador extends Atleta {
 /*
     O conceito é bem simples, nós temos uma classe.
     Criamos então uma subclasse, ou seja uma classe que vai herdar algo da outra.
-    Só que depois de heradada nós reescrevemos algumas funcionalidades dentro da nossa subclasse.
+    Só que depois de herdar, nós reescrevemos algumas funcionalidades dentro da nossa subclasse.
  */
